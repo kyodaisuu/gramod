@@ -1,11 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # Calculate G mod N, where G is the Graham's number
-# http://gyafun.jp/ln/gramod.cgi
-# written by Fish http://googology.wikia.com/wiki/User:Kyodaisuu
-# MIT License
-# Last update: 2018-01-08
-# Language: Python 2 or 3
+# https://github.com/kyodaisuu/gramod
+# written by Fish
 #
 # When environmental variable SCRIPT_NAME is set, it runs as a CGI program.
 # Otherwise it runs as a commandline program.
@@ -92,9 +89,7 @@ def maincgi():
         print("<p>Input N &le; {0} and press the button.</p>".format(maxbase))
     print(r'''<hr>
 <p style="text-align: right;"><a
-href="http://gyafun.jp/ln/gramod.cgi">Graham's number mod N</a>
-(<a href="gramod.txt">Source code</a>)
-by <a href="http://googology.wikia.com/wiki/User:Kyodaisuu">Fish</a></p>
+href="https://github.com/kyodaisuu/gramod">Graham's number mod N</a></p>
 </body>
 </html>
 ''')
